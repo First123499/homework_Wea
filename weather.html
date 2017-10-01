@@ -27,13 +27,20 @@
     <link rel="stylesheet" href="design_page.css">
 
     <Script src="weather.js"></Script>
+
 </head>
 
 
 <body>
+    <div ALIGN="RIGHT">
+        <div class="card" style="width: 15rem"ALIGN="RIGHT">
+            <p class="col-lg-6" align="center" id="demo" >
 
+
+            </p>
+        </div>
+    </div>
     <br>
-
 
 
 
@@ -43,19 +50,21 @@
 
 
             <div class="photo_main">
-                <img id="hd" src="weather1.png" alt="wlogo">
+                <img id="pm" src="BG1.png" alt="wlogo">
+
             </div>
+            <br>
             <h1>
-                <FONT size=12 color="Mango"><b>WEATHER</b></FONT>
+                <FONT size=12 color=" #F70052"><b>WEATHER</b></FONT>
             </h1>
             <h2>
-                <FONT size=6 color="HardSeaGreen">FORECAST</FONT>
+                <FONT size=6 color=" #F70052">FORECAST</FONT>
             </h2>
             <label for="sel1"><b>Serach City</b></label>
             <form>
                 <div class="input-group">
-                    <input type="text" style="border:2px solid #12EC0B" class="form-control" placeholder="Search" aria-label="Search" id="city">
-                    <button class="btn btn-primary" type="button" style="background-color:#0543EE" id="getWeather">Serach</button>
+                    <input type="text" style="border:2px solid #F70052" class="form-control" placeholder="Search" aria-label="Search" id="city">
+                    <button class="btn btn-primary" type="button" style="background-color:#0543EE" id="getWeather">Search</button>
                 </div>
             </form>
 
@@ -63,18 +72,17 @@
             <br>
             <hr>
             <div id="forecastbox">
+                <h5 id = "demo"></h5>
+                
 
             </div>
         </div>
     </div>
-    <div class="card" style="width: 18rem">
-        <p class="col-lg-40" id="demo">
-            <FONT color>
-        </p>
-    </div>
-    <p class="col-lg-40" id="demo">
-        <FONT color>
-    </p>
+
+
+
+
+
 </body>
 
 </html>
